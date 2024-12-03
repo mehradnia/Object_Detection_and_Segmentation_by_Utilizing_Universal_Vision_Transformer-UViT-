@@ -1,9 +1,11 @@
+from pathlib import Path
+
 from data_loader.datasets.coco2017 import COCO2017
 from config.config import Config
 
 
 class Main:
-    config_file_path = 'src/config/configs.yaml'
+    config_file_path = Path.cwd() + 'src/config/configs.yaml'
 
     def __init__(self):
         pass
