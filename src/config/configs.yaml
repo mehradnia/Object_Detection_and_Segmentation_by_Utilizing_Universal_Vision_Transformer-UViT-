@@ -1,0 +1,16 @@
+datasets:
+  coco2017:
+    path: data/coco2017
+  viad_4:
+    path: data/Senior-Design-VIAD-4
+models:
+  uvit:
+    image_size: 896
+    patch_size: 112
+    depth: 256
+    num_heads: 8
+    mlp_factor: 4
+    dropout_rate: 0.0
+    attention_window_scale: 0.5
+general:
+  batch_size: 32
